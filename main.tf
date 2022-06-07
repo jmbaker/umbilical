@@ -12,8 +12,6 @@ terraform {
 provider "aws" {
   profile = "default"
   region  = "us-west-2"
-  access_key = "AKIAYKNDWJXN4B4QVSWT"
-  secret_key = "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"
 }
 
 resource "aws_sqs_queue" "terraform_queue" {
